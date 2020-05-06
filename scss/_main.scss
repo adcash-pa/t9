@@ -1,9 +1,10 @@
 
 // global color variables
 
-$main-color:   #fffc36; // #6AC045;
-$button:       #fbbc05;
-$buttn-hover:  #fbf705;
+$main-color:     #86dcff; // #6AC045;
+$button:         #00a3e6;
+$buttn-hover:    #1fbeff;
+$button-shadow:  #00719f;
 
 
 body {
@@ -31,7 +32,7 @@ body {
 }
 
 .logo {
-  width: 320px;
+  width: 128px;
 }
 
 .img-left {
@@ -174,9 +175,10 @@ ul.offer-box li.leading {
   border-radius: 53px;
   background: $button;
   font-size: 20px;
-  color: #000;
+  color: #fff;
   font-weight: 800;
-  box-shadow: 0 3px 1px #bd8e06;
+  box-shadow: 0 3px 1px $button-shadow;
+  border: 1px solid $button;
 }
 
 .pure-button:hover, .banner .pure-button:hover {
@@ -214,11 +216,11 @@ ul.offer-box li.leading {
 
 .offer .button-xlarge {
   font-size: 24px;
-  box-shadow: 0 3px 0 #bd8e06;
+  box-shadow: 0 3px 0 $button-shadow;
 }
 
 .banner a.pure-button, .button-xlarge {
-  color: #000;
+  color: #fff;
   font-weight: 800;
 }
 
@@ -235,7 +237,5 @@ footer {
 }
 
 footer .logo {
-  margin-top: 6px;
-  width: 200px;
-  //padding-bottom: 12px;
+  width: 100px;
 }
